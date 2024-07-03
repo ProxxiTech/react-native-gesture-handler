@@ -5,7 +5,7 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    namespace 'com.swmansion.gesturehandler'
+    namespace 'com.swmansion.gesturehandler.react'
 
     compileSdkVersion safeExtGet("compileSdkVersion", 28)
 
